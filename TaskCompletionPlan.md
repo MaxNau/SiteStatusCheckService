@@ -5,6 +5,7 @@
 1. Создать проект Windows Service.
 2. Установить необходимые NuGet-пакеты.
 3. Добавить OwinSelfHost: 
+
   3.1. Произвести конфигурацию Owin реализовав методы ConfigureWebApi и Configuration.
 4. Добавить WebsiteStatusCheckService:
  4.1. Переопределить методы OnStart и OnStop, запускающие и останавливающие сервис и OwinSelfHost.
